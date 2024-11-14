@@ -7,6 +7,7 @@ new Command({
 	description: "Replies with pong 🏓",
 	type: ApplicationCommandType.ChatInput,
 	run(interaction){
+		
 		const row = createRow(
 			// ../../responders/buttons/remind.ts
 			new ButtonBuilder({ 
