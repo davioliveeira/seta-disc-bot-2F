@@ -20,6 +20,8 @@ const KEYS = {
     shopify05: "ISOUPDZWLHEHLHKIE65732BV4ARDEISU", 
     shopify06: "LUPWLM5OZEVEHLH3Z6GTORK2ZU7ZPWY5",
     shopify07: "4ZOBIRLCZIIJJXFBVFVIFWRLDDQPHQ5T", 
+    "shopify-helper": "QPHO66FIPNSNRJX5HQXIB3P7OWNJVAVR", 
+    "pagarme-cygnuss": "55AQGFYMKH4RMRAQ6FOMZEIOF3EE5T5Z&",
     "pagarme-consolatio": "VQITEJVVVX53XB6ZANAVNUXUESKRJZQX", 
     "dom-akada": "T43LYGMXQKM2YBZ3XTE2K4A2ULVV6HFQ", 
     "dom-kasamo": "YZSNAJRZUJBKX6AD2AC2GM37UMJ2BV2F",
@@ -37,7 +39,10 @@ const KEYS = {
     "vtex-mormaii": "HE2TANBZIY4DMNRRGQZDMRCEIU",
     "pagarme-lilo":"FRWAH3BT4CVXCONQLBQ3BIHM3GFTVTUJ",
     "stripe-amelie": "nospercyrajlrsx5fkbfd7qw", 
-    "pagarme-akada": "BOU2NTLEP6RD6YRRVDTENJHHIWPU5AEE"
+    "pagarme-akada": "BOU2NTLEP6RD6YRRVDTENJHHIWPU5AEE", 
+    "facebook-setasupmeta": "YKWU6H5ECQ7AXIOKYQN5NVSXQ6LUAO5V", 
+    "facebook-letvirtual": "YOBVRZEOERK5RDOSNCD2ROAOW7YF6QIW",
+    "facebook-emersondigital": "KGJ5XSI7LIGNDROJ6G46F6ZW7P5JUZKT"
 } as const;
 
 type ShopifyCommandName = keyof typeof KEYS;
