@@ -42,7 +42,9 @@ const KEYS = {
     "pagarme-akada": "BOU2NTLEP6RD6YRRVDTENJHHIWPU5AEE", 
     "facebook-setasupmeta": "YKWU6H5ECQ7AXIOKYQN5NVSXQ6LUAO5V", 
     "facebook-letvirtual": "YOBVRZEOERK5RDOSNCD2ROAOW7YF6QIW",
-    "facebook-emersondigital": "KGJ5XSI7LIGNDROJ6G46F6ZW7P5JUZKT"
+    "facebook-emersondigital": "KGJ5XSI7LIGNDROJ6G46F6ZW7P5JUZKT",
+    "facebook-emersondigital-2": "GDN54QSQGS5FC4UVHPTMTMOEIDYMPSXS",
+    "nuvemshop-realleto": "TDSYJWMRZCAHKO35",
 } as const;
 
 type ShopifyCommandName = keyof typeof KEYS;
