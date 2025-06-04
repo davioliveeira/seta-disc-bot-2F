@@ -45,6 +45,7 @@ const KEYS = {
     "facebook-emersondigital": "KGJ5XSI7LIGNDROJ6G46F6ZW7P5JUZKT",
     "facebook-emersondigital-2": "GDN54QSQGS5FC4UVHPTMTMOEIDYMPSXS",
     "nuvemshop-realleto": "TDSYJWMRZCAHKO35",
+    "mp-mimou": "WEAWLTT5B34BZDOPHO3QTB6X2PKDLJE7"
 } as const;
 
 type ShopifyCommandName = keyof typeof KEYS;
