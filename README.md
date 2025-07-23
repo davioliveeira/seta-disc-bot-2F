@@ -16,6 +16,21 @@ This is the most complete discord bot base you've ever seen! Developed by [@rinc
 - `watch`: running in watch mode
 - `start`: running the compiled bot
 
+## Como adicionar um novo comando
+
+Siga o passo a passo abaixo sempre que precisar adicionar um novo comando ao projeto:
+
+1. Atualize o comando dentro do arquivo `src/discord/commands/public/Generate2FCode.ts` conforme necessário.
+2. Salve a alteração no arquivo.
+3. No terminal, execute o comando:
+   ```sh
+   npm run build
+   ```
+4. Faça o upload do projeto usando a extensão do Discloud.
+5. Faça o commit das alterações no repositório Git.
+
+---
+
 ## Structures
 
 - [Commands](https://constatic-docs.vercel.app/docs/discord/commands)
