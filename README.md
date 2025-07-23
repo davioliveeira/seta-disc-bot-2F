@@ -18,16 +18,46 @@ This is the most complete discord bot base you've ever seen! Developed by [@rinc
 
 ## Como adicionar um novo comando
 
-Siga o passo a passo abaixo sempre que precisar adicionar um novo comando ao projeto:
+Siga o passo a passo detalhado abaixo sempre que precisar adicionar um novo comando ao projeto:
 
-1. Atualize o comando dentro do arquivo `src/discord/commands/public/Generate2FCode.ts` conforme necessário.
-2. Salve a alteração no arquivo.
-3. No terminal, execute o comando:
-   ```sh
-   npm run build
-   ```
-4. Faça o upload do projeto usando a extensão do Discloud.
-5. Faça o commit das alterações no repositório Git.
+1. **Atualize o comando**
+   - Edite ou adicione o comando desejado no arquivo:
+     ```
+     src/discord/commands/public/Generate2FCode.ts
+     ```
+   - Faça as alterações necessárias no código para implementar ou modificar o comando.
+
+2. **Salve as alterações**
+   - Certifique-se de salvar o arquivo após editar.
+
+3. **Compile o projeto**
+   - No terminal, execute o comando abaixo para compilar o projeto:
+     ```sh
+     npm run build
+     ```
+   - Isso irá gerar os arquivos compilados na pasta `dist`.
+
+4. **Faça o upload para o Discloud**
+   - Utilize a extensão do Discloud no VSCode para fazer o upload do projeto.
+   - Siga as instruções da extensão para garantir que o bot seja atualizado corretamente na plataforma.
+
+5. **Faça o commit das alterações**
+   - No terminal, confira os arquivos modificados:
+     ```sh
+     git status
+     ```
+   - Adicione os arquivos alterados ao commit:
+     ```sh
+     git add .
+     ```
+   - Faça o commit com uma mensagem descritiva (exemplo):
+     ```sh
+     git commit -m "feat: adiciona novo comando 2FA ao bot"
+     ```
+   - (Opcional) Envie as alterações para o repositório remoto:
+     ```sh
+     git push origin nome-da-sua-branch
+     ```
 
 ---
 
