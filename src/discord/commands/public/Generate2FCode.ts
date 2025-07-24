@@ -47,7 +47,10 @@ const KEYS = {
     "nuvemshop-realleto": "TDSYJWMRZCAHKO35",
     "mp-mimou": "WEAWLTT5B34BZDOPHO3QTB6X2PKDLJE7" ,
     "nuvemshop-qualitysono": "QWVY4PIFD27KAXZU",
-    "mp-alleganza":"MP72LMVGLCJZQ4CZCLLYHTRUBQDTPZON"
+    "mp-alleganza":"MP72LMVGLCJZQ4CZCLLYHTRUBQDTPZON", 
+    "pagarme-boldies":"HNL4VHZGWNQ2HDCCKVSLEF2BHVEDTPTO", 
+    "mp-realleto":"IPUNVIFIODCAETVCD54XMSLAKPSQHN6U", 
+    "mp-mundostreet": "GGPEHKKDSAZ3GBNSKVBU4SMHUTDOKHQS"
 } as const;
 
 type ShopifyCommandName = keyof typeof KEYS;
