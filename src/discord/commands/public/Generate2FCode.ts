@@ -47,10 +47,11 @@ const KEYS = {
     "nuvemshop-realleto": "TDSYJWMRZCAHKO35",
     "mp-mimou": "WEAWLTT5B34BZDOPHO3QTB6X2PKDLJE7" ,
     "nuvemshop-qualitysono": "QWVY4PIFD27KAXZU",
-    "mp-alleganza":"MP72LMVGLCJZQ4CZCLLYHTRUBQDTPZON",
-    "mp-mundostreet" : "GGPEHKKDSAZ3GBNSKVBU4SMHUTDOKHQS",
-    "mp-realleto" : "IPUNVIFIODCAETVCD54XMSLAKPSQHN6U" ,
-    "pagarme-boldies" : "HNL4VHZGWNQ2HDCCKVSLEF2BHVEDTPTO" ,
+    "mp-alleganza": "MP72LMVGLCJZQ4CZCLLYHTRUBQDTPZON",
+    "mp-mundostreet": "GGPEHKKDSAZ3GBNSKVBU4SMHUTDOKHQS",
+    "mp-realleto": "IPUNVIFIODCAETVCD54XMSLAKPSQHN6U",
+    "pagarme-boldies": "HNL4VHZGWNQ2HDCCKVSLEF2BHVEDTPTO",
+    "nuvemshop-mariatangerina" : "O6MZ2ANLDGJT4P5C"
 } as const;
 
 type ShopifyCommandName = keyof typeof KEYS;
